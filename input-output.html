@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlonePainPeanut</title>
+    <link rel="icon" href="https://www.pinhome.id/blog/wp-content/uploads/2022/03/Random-e1597239171624.png?w=256&fm=avif">
+    <style>
+        body{
+            background-color: darkgrey;
+        }
+        #name{
+            border: 1px solid blue;
+            animation: 3s kotakPutar infinite;
+            border-radius: 5px 0 5px 5px;
+            padding: 5px;
+            width: 150px;
+        }
+
+        label{
+            font-style: italic;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            margin-left: 30px;
+        }
+
+        #name[type=text]{
+            background: rgb(60, 54, 65); color: rgb(0, 255, 234); font-weight: bold;
+        }
+
+        @keyframes kotakPutar{
+            25%{
+                border-color: blue;
+                border-bottom-width: 3px;
+            }
+            50%{
+                border-color: red;
+                border-left-width: 3px;
+            }
+            75%{
+                border-color: yellow;
+                border-top-width: 3px;
+            }
+            100%{
+                border-color: green;
+                border-right-width: 3px;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <label for="name">Nama : </label><input type="text" id="name">
+</body>
+</html>
