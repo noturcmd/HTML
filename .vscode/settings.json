@@ -4,6 +4,6 @@
     "editor.fontFamily": "Helvetica",
     "workbench.colorTheme": "One Dark Pro Darker",
     "terminal.integrated.fontFamily": "monospace",
-    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontSize": 14,
     "terminal.integrated.tabs.defaultColor": "terminal.ansiGreen",
 }
