@@ -2,4 +2,8 @@
     "liveServer.settings.port": 5501,
     "editor.fontSize": 18,
     "workbench.colorTheme": "One Dark Pro Darker",
+    "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.tabs.defaultColor": "terminal.ansiGreen",
+    
 }
