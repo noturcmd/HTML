@@ -6,4 +6,7 @@
     "terminal.integrated.fontFamily": "monospace",
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.tabs.defaultColor": "terminal.ansiGreen",
+    "workbench.colorCustomizations": {
+        "selection.background": "#0000FF"
+      }
 }
