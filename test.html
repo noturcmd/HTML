@@ -5,20 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AlonePainPeanut</title>
     <style>
+      body {
+        margin: 0;
+      }
+
+      nav {
+        background-color: aqua;
+        position: fixed;
+        width: 100%;
+        /* border-left-color: blue;
+        border-left-width: 6px;
+        border-left-style: groove;
+        border-bottom-color: green;
+        border-bottom-width: 6px;
+        border-bottom-style: groove; */
+        box-shadow: 3px 5px 5px rgb(91, 84, 84);
+      }
       label + input {
         border: 2px inset greenyellow;
       }
       label + input:active {
         background-color: rgb(225, 220, 224);
       }
+      nav li a {
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: bold;
+      }
 
-      /* input {
-        border: 5px dotted greenyellow;
-      } */
+      nav ul li,
+      nav ul,
+      nav h1 {
+        display: inline-block;
+      }
+
+      nav h1 {
+        padding: 10px 0;
+        width: 220px;
+        margin-right: 400px;
+        margin-left: 200px;
+        border-bottom-style: groove;
+        border-bottom-color: darkblue;
+        font-size: 30px;
+        text-align: center;
+        color: brown;
+      }
+
+      nav li {
+        padding: 5px;
+      }
+      nav a {
+        padding: 8px;
+        transition: 0.6s ease-in-out;
+      }
+
+      nav a:hover {
+        background-color: gray;
+        color: whitesmoke;
+      }
+
+      p {
+        font-size: 30px;
+        font-variant: small-caps;
+        text-decoration-line: line-through;
+        text-decoration-style: wavy;
+        text-decoration-color: red;
+      }
     </style>
   </head>
   <body>
-    <label for="nama">Nama : </label>
-    <input type="text" id="nama" />
+    <nav>
+      <h1>AlonePainPeanut</h1>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Contacts</a></li>
+        <li><a href="">About</a></li>
+      </ul>
+    </nav>
+    <div class="content">
+      <br /><br /><br /><br /><br /><br /><br /><br />
+      <label for="nama">Nama : </label>
+      <input type="text" id="nama" />
+      <p>Lorem, ipsum dolor.</p>
+    </div>
   </body>
 </html>
