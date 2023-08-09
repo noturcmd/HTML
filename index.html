@@ -4,51 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AlonePainPeanut</title>
-    <style>
-      *,
-      html {
-        margin: 0;
-        padding: 0;
-      }
-
-      .container .navbar {
-        display: flex;
-        flex-direction: row;
-      }
-
-      .navbar {
-        position: fixed;
-        left: 20px;
-        background-color: darkred;
-        border-radius: 30px;
-        width: 1665px;
-        z-index: 999999999999;
-      }
-
-      .navbar h1 {
-        margin-right: 760px;
-        color: crimson;
-        margin-left: 20px;
-      }
-
-      .navbar ol li {
-        display: inline-block;
-        margin-left: 40px;
-        margin-right: 5px;
-      }
-
-      .navbar ol li a {
-        text-decoration: none;
-        font-size: 28px;
-      }
-
-      .body {
-        position: relative;
-        top: 80px;
-        margin-left: 20px;
-        background-color: rgb(0, 174, 255);
-      }
-    </style>
   </head>
   <body>
     <h1 id="judul">Judul 1</h1>
@@ -65,15 +20,25 @@
       </div>
       <div class="body">
         <h3 id="welcome">Welcome to my Website</h3>
+        <p>paragraf 1</p>
+        <p>paragraf 2</p>
+        <p>paragraf 3</p>
+        <p>paragraf 4</p>
+        <p>paragraf 5</p>
       </div>
     </div>
     <script>
       const judul = document.getElementById("judul");
-      let gantiJudul = prompt("Masukkan judul yang Anda mau : ");
+      //   let gantiJudul = prompt("Masukkan judul yang Anda mau : ");
 
       judul.style.color = "red";
       judul.style.backgroundColor = "darkBlue";
-      judul.innerHTML = gantiJudul;
+      //   judul.innerHTML = gantiJudul;
+
+      const paragraf = document.getElementsByTagName("p");
+      for (let indeks = 0; indeks < paragraf.length; indeks++) {
+        paragraf[indeks].style.backgroundColor = "lightBlue";
+      }
     </script>
   </body>
 </html>
