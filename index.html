@@ -69,7 +69,11 @@
     </div>
     <script>
       const judul = document.getElementById("judul");
-      console.log(judul);
+      let gantiJudul = prompt("Masukkan judul yang Anda mau : ");
+
+      judul.style.color = "red";
+      judul.style.backgroundColor = "darkBlue";
+      judul.innerHTML = gantiJudul;
     </script>
   </body>
 </html>
