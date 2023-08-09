@@ -1,70 +1,75 @@
 <!DOCTYPE html>
 <html lang="id-ID, en-EN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AlonePainPeanut</title>
     <style>
-        *, html{
-            margin: 0;
-            padding: 0;
-        }
+      *,
+      html {
+        margin: 0;
+        padding: 0;
+      }
 
-        .container .navbar {
-            display: flex;
-            flex-direction: row;
+      .container .navbar {
+        display: flex;
+        flex-direction: row;
+      }
 
-        }
+      .navbar {
+        position: fixed;
+        left: 20px;
+        background-color: darkred;
+        border-radius: 30px;
+        width: 1665px;
+        z-index: 999999999999;
+      }
 
-        .navbar {
-            position: fixed;
-            left: 20px;
-            background-color: darkred;
-            border-radius: 30px;
-            width: 1665px;
-            z-index: 999999999999;
-        }
+      .navbar h1 {
+        margin-right: 760px;
+        color: crimson;
+        margin-left: 20px;
+      }
 
-        .navbar h1{
-            margin-right: 760px;
-            color: crimson;
-            margin-left: 20px;
-        }
+      .navbar ol li {
+        display: inline-block;
+        margin-left: 40px;
+        margin-right: 5px;
+      }
 
-        .navbar ol li {
-            display: inline-block;
-            margin-left: 40px;
-            margin-right: 5px;
-        }
-        
-        .navbar ol li a{
-            text-decoration: none;
-            font-size: 28px;
-        }
+      .navbar ol li a {
+        text-decoration: none;
+        font-size: 28px;
+      }
 
-        .body{
-            position: relative;
-            top: 80px;
-            margin-left: 20px;
-            background-color: rgb(0, 174, 255);
-        }
+      .body {
+        position: relative;
+        top: 80px;
+        margin-left: 20px;
+        background-color: rgb(0, 174, 255);
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
+    <h1 id="judul">Judul 1</h1>
     <div class="container">
-        <div class="navbar">
-            <h1>AlonePainPeanut</h1>
-            <ol>
-                <li><a href="">Home</a></li>
-                <li><a href="">Design</a></li>
-                <li><a href="">Article</a></li>
-                <li><a href="">Videos</a></li>
-                <li><a href="">About</a></li>
-            </ol>
-        </div>
-        <div class="body">
-            <h3 id="welcome">Welcome to my Website</h3>
-        </div>
+      <div class="navbar">
+        <h1>AlonePainPeanut</h1>
+        <ol>
+          <li><a href="">Home</a></li>
+          <li><a href="">Design</a></li>
+          <li><a href="">Article</a></li>
+          <li><a href="">Videos</a></li>
+          <li><a href="">About</a></li>
+        </ol>
+      </div>
+      <div class="body">
+        <h3 id="welcome">Welcome to my Website</h3>
+      </div>
     </div>
-</body>
+    <script>
+      const judul = document.getElementById("judul");
+      console.log(judul);
+    </script>
+  </body>
 </html>
