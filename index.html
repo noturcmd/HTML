@@ -29,6 +29,7 @@
     </div>
     <script>
       const judul = document.getElementById("judul");
+      const ukuranFont = prompt("Masukkan font size untuk paragraf : ");
       //   let gantiJudul = prompt("Masukkan judul yang Anda mau : ");
 
       judul.style.color = "red";
@@ -38,6 +39,7 @@
       const paragraf = document.getElementsByTagName("p");
       for (let indeks = 0; indeks < paragraf.length; indeks++) {
         paragraf[indeks].style.backgroundColor = "lightBlue";
+        paragraf[indeks].style.fontSize = `${Number(ukuranFont)}px`;
       }
     </script>
   </body>
