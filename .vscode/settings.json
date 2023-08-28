@@ -2,7 +2,7 @@
     "liveServer.settings.port": 5501,
     "editor.fontSize": 18,
     "editor.fontFamily": "Lucida Console",
-    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.colorTheme": "Atom One Dark",
     "terminal.integrated.fontFamily": "monospace",
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.tabs.defaultColor": "terminal.ansiGreen",
